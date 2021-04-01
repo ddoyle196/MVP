@@ -1,0 +1,84 @@
+body {
+  background-color: skyblue;
+  color: whitesmoke;
+}
+.suggestions {
+  display: inline-block;
+  text-align: center;
+}
+
+.progression {
+  text-align: center;
+}
+
+h1 {
+  color:purple;
+}
+
+h3,
+h2 {
+  margin: 10px auto;
+}
+
+.inputMovie {
+  margin: 10px 0px;
+}
+
+.description {
+  text-align: left;
+}
+
+.mediaCard {
+  border-radius: 4px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  width: 200px;
+  margin: 15px 1%;
+  display: inline-block;
+  vertical-align: top;
+  box-shadow: 4px 2px grey;
+  padding: 10px;
+  background-color: white;
+  color: #343a40;
+}
+
+.mediaCard:hover{
+  cursor:pointer;
+  transform: scale(1.2);
+  box-shadow: none;
+}
+
+.liked{
+  border-radius: 2px;
+  background-color: slategray;
+  width: fit-content;
+  padding: 2px;
+  margin: 4px auto;
+}
+
+.YTembed {
+  width: 100%;
+  height: 75%;
+}
+
+.mediaOption {
+  margin: 15px .5%;
+  box-shadow: 4px 2px grey;
+  border-radius: 4px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  padding:20px;
+  background-color: whitesmoke;
+  color: #343a40;
+}
+
+.mediaOption:hover{
+  cursor:pointer;
+  transform: scale(1.2);
+  box-shadow: none;
+}
