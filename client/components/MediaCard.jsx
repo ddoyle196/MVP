@@ -3,7 +3,7 @@ import React from 'react';
 const MediaCard = (rec, liked, watch) => {
   if (rec.Name) {
     return (
-      <div key={rec.yID} className="mediaCard">
+      <div key={rec.yID} className="mediaCard" >
         <h3>{rec.Name}</h3>
         {rec.wTeaser ? (
           <div className="description">
@@ -13,8 +13,8 @@ const MediaCard = (rec, liked, watch) => {
         ) : null}
         <iframe className="YTembed" src={rec.yUrl}>
         </iframe>
-        <button className="description" onClick={liked}>Add this to things I liked!</button>
-        <button className="description" onClick={watch}>Let&apos;s try this out!</button>
+        <button className="description" name={rec.Name} onClick={liked}>Add this to things I liked!</button>
+        {/* <button className="description" onClick={watch}>Let&apos;s try this out!</button> */}
       </div >
     );
   }

@@ -82,3 +82,13 @@ h2 {
   transform: scale(1.2);
   box-shadow: none;
 }
+
+.restart {
+  width: fit-content;
+}
+
+.restart:hover{
+  cursor:pointer;
+  font-weight: bolder;
+  box-shadow: none;
+}
